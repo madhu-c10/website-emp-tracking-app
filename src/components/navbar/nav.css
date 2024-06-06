@@ -1,0 +1,206 @@
+.nav-style {
+    width: 100%;
+    height: 82px;
+    background: #969696;
+    position: fixed;
+    z-index: 1000;
+    gap: 267px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
+a{
+    text-decoration: none !important;
+}
+.nav-logo {
+    width: 140px;
+    height: 60px;
+    padding-top: 4px;
+}
+
+.nav-dis {
+    display: flex;
+    justify-content: space-around;
+}
+
+.li-style {
+    display: inline;
+    line-height: 80px !important;
+}
+
+.a-style {
+    padding-right: 35px;
+    text-decoration: none;
+    color: var(--Font-3, #FFF);
+    font-family: inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    display: flex;
+    /* 24.758px */
+}
+
+.humberger {
+    display: inline;
+    margin-top: -45px;
+    float: right;
+    display: none;
+    cursor: pointer;
+    color: black;
+}
+
+.cross-mark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+.nav-logo-style{
+    display: flex;
+/* flex-direction: column; */
+align-items: flex-start;
+/* gap: 8.343px !important; */
+margin-top: 21px;
+}
+.nav-logo-text-style{
+    font-family: "Unica One" !important;
+font-size: 16.686px;
+font-style: normal;
+font-weight: 400;
+line-height: 41.457px; 
+background: linear-gradient(270deg, #514C9E -77.51%, #25C5DC 184.99%);
+background-clip: text !important;
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent;
+text-decoration: none !important;
+}
+.nav-logo-styling{
+    width: 10.011px;
+height: 0px;
+position: absolute;
+right: 7.315px;
+bottom: 16.841px;
+fill: var(--Font1, #1D1D1D);
+stroke-width: 0.834px;
+stroke: var(--Font1, #1D1D1D);
+}
+.logo-text-2{
+    font-family: "Geostar Fill" !important;
+font-size: 25.028px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.106px; /* 148.256% */
+background: linear-gradient(90deg, #25C5DC -232.76%, #514C9E 91.38%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav-img{
+    height: 44px;
+    border: none !important;
+    background-color: inherit !important;
+}
+.ul-style{
+    display: flex;
+    margin-top: 35px;
+}
+/*------------------@media screen settings----------------------*/
+
+@media screen and (max-width:1100px) {
+    .ul-style {
+        position: absolute;
+        left: -120% !important;
+    }
+
+    .slider {
+        left: 0;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(270deg, #514C9E -77.51%, #25C5DC 184.99%);
+    }
+
+    .li-style {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .li-one {
+        margin-top: 3rem;
+    }
+
+    .humberger {
+        display: block;
+        position: absolute;
+        right: 0;
+        font-size: 25px;
+        padding-right: 30px;
+        top: 19px;
+        margin-top: 0 !important;
+    }
+
+    .a-style {
+        font-size: 30px;
+    }
+
+    .cross-mark {
+        display: block;
+        padding: 23px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
+    .line-style-2 {
+        display: none !important;
+    }
+    .plan-card-button{
+        width: fit-content !important;
+    }
+}
+.mask {
+    position: relative;
+    padding: 0;
+    height: 20px;
+  
+    /*  Remove overflow to see how it works　:) */
+    overflow: hidden;
+  }
+  
+  .link-container {
+    transition: transform 0.4s ease;
+  }
+  
+  .title {
+    display: block;
+  
+    /*  Set same font-size and line height  */
+    font-size: 18px;
+    line-height: 20px;
+  
+    transition: transform 0.4s ease;
+  }
+  
+  .link-title1 {
+    transform-origin: right center;
+  }
+  
+  .link-title2 {
+    transform-origin: left center;
+    transform: rotate(20deg);
+  }
+  .a-style:hover .link-container {
+    transform: translateY(-20px);
+  }
+  
+  /* Rotate texts a little bit */
+  .a-style:hover .link-title1 {
+    transform: rotate(20deg);
+  }
+  
+  .a-style:hover .link-title2 {
+    transform: rotate(0);
+  }  

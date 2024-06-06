@@ -1,0 +1,1 @@
+export {default as navLogo} from './Frame 14.svg';
