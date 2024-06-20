@@ -15,7 +15,7 @@ const Nav = () => {
     return (
         <div>
             <nav className='nav-style'>
-                <div className="container-fluid">
+                <div className="container-fluid nav-container">
                     <div className="nav-dis">
                         <div className="tittle-con">
                             <a href="/">
@@ -30,23 +30,23 @@ const Nav = () => {
                                     <span className="mask">
                                         <div className="link-container">
                                             <span className="link-title1 title">About us</span>
-                                            <span className="link-title2 title">READ MORE</span>
+                                            <span className="link-title2 title">About us</span>
                                         </div>
                                     </span>
                                 </a></li>
-                                <li className='li-style'><a href='#' /* onClick={handleClick} */ className='a-style'>
+                                <li className='li-style'><a href='/features' /* onClick={handleClick} */ className='a-style'>
                                     <span className="mask">
                                         <div className="link-container">
-                                            <span className="link-title1 title">READ MORE</span>
-                                            <span className="link-title2 title">READ MORE</span>
+                                            <span className="link-title1 title">Features</span>
+                                            <span className="link-title2 title">Features</span>
                                         </div>
                                     </span>
                                 </a></li>
-                                <li className='li-style'><a href='#' /* onClick={handleClick} */ className='a-style'>
+                                <li className='li-style'><a href='/contact' /* onClick={handleClick} */ className='a-style'>
                                     <span className="mask">
                                         <div className="link-container">
-                                            <span className="link-title1 title">READ MORE</span>
-                                            <span className="link-title2 title">READ MORE</span>
+                                            <span className="link-title1 title">About us</span>
+                                            <span className="link-title2 title">About us</span>
                                         </div>
                                     </span>
                                 </a></li>
@@ -58,6 +58,11 @@ const Nav = () => {
                             <div className="humberger" /* onClick={handleClick} */>
                                 <FaBars />
                             </div>
+                        </div>
+                        <div className='free-trial-div'>
+                           <span className='nav-free-trial-span'>
+                           Start Free Trial
+                           </span>
                         </div>
                     </div>
                 </div>

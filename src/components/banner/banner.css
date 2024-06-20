@@ -1,0 +1,186 @@
+.banner-layout{
+    padding: 100px 30px 100px 50px;
+    background: var(--Font-1, #222);
+    width: 100%;
+    overflow: hidden;
+}
+.banner-back-text-span{
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgba(255, 255, 255, 0.25);
+font-family: Gibson;
+font-size: 100px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 8px;
+}
+.banner-left-div-span{
+    color: #FFF;
+font-family: Gibson;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 0px */
+letter-spacing: 4.48px;
+}
+.banner-top-con{
+    position: relative;
+}
+.banner-bottom-con{
+    position: relative;
+    top: -75px;
+}
+.banner-sub-text{
+    color: #A2A1A1;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+top: 25px;
+}
+.banner-left-div-inner-span{
+    color: var(--Font-2, #1993C6);
+font-family: Gibson;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 4.48px;
+}
+/* .banner-btn-container{
+} */
+.inner_wrap {
+    position: relative;
+    padding: 20px 30px 0px 0px;
+    color: #FFFFFF;
+    /* top: 40px; */
+    bottom: -80px;
+    left: 20px;
+    /* width: 230px; */
+    display: inline-block;
+    
+    span.border_btm {
+
+      &:after {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        border-bottom: 3px solid #FFF;
+        border-right: 3px solid #FFF;
+        transition: all .35s ease;
+        transform: translate(-100%,50%);
+        animation: 2s linear 1s infinite alternate slidein;
+    animation-duration: 2s;
+    animation-timing-function: ease !important;
+      }
+      &:before {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: -10px;
+       /*  left: -10px; */
+        border-bottom: 3px solid #FFF;
+        border-left: 3px solid #FFF;
+        transition: all .35s ease;
+        transform: translate(-100%, 50%);
+        animation: 2s linear 1s infinite alternate slidein2;
+        animation-duration: 2s;
+        animation-timing-function: ease !important;
+      }
+    }
+    &:before {
+      display: block;
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: -10px;
+     /*  left: -10px; */
+      border-top: 3px solid #FFF;
+      border-left: 3px solid #FFF;
+      transition: all .35s ease;
+      transform: translate(-100%, 50%);
+      animation: 2s linear 1s infinite alternate slidein3;
+      animation-duration: 2s;
+      animation-timing-function: ease !important;
+    }
+    &:after {
+      display: block;
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      border-top: 3px solid #FFF;
+      border-right: 3px solid #FFF;
+      transition: all .35s ease;
+      transform: translate(-100%,50%);
+      animation: 2s linear 1s infinite alternate slidein4;
+      animation-duration: 2s;
+      animation-timing-function: ease !important;
+    }
+  }
+
+ @keyframes slidein {
+    0% {
+        transform: translate(-100%,50%);
+    }
+    100%{
+        transform: translate(50%,80%);
+    }
+   
+}
+@keyframes slidein2 {
+    0%{
+        transform: translate(-100%,50%);
+    }
+    100%{
+        transform: translate(-150%,80%);
+    }
+}
+
+@keyframes slidein3 {
+    0%{
+        transform: translate(-100%,50%);
+    }
+    100%{
+        transform: translate(-150%,-80%);
+    }
+}
+@keyframes slidein4 {
+    0%{
+        transform: translate(-100%,50%);
+    }
+    100%{
+        transform: translate(50%,-80%);
+    }
+}
+
+.pushable {
+    background: #1993C6;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #1993C6;
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }

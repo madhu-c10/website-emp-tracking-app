@@ -1,1 +1,16 @@
 export {default as navLogo} from './Frame 14.svg';
+export { default as features_BannerImg} from './Group 23.svg';
+export {default as featuresSecImg} from './Group 16.svg';
+export {default as f_ban_topLeft1} from './Frame 9625 (4).svg';
+export {default as f_ban_topLeft2} from './Frame 9625 (2).svg';
+export {default as f_ban_topLeft3} from './Frame 9625 (3).svg';
+export {default as f_ban_topRight1} from './Frame 9624 (3).svg';
+export {default as f_ban_topRight2} from './Frame 9624 (1).svg';
+export {default as f_ban_topRight3} from './Frame 9624 (2).svg';
+export {default as f_ban_botLeft1} from './Frame 9626.svg';
+export {default as f_ban_botLeft2} from './Frame 9626 (1).svg';
+export {default as f_ban_botLeft3} from './Frame 9626 (2).svg';
+export {default as f_ban_botRight1} from './Frame 9627.svg';
+export {default as f_ban_botRight2} from './Frame 9627 (1).svg';
+export {default as f_ban_botRight3} from './Frame 9627 (2).svg';
+export {default as heroBanImg} from './Group 16 (1).svg';
